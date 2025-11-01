@@ -1,0 +1,12 @@
+cd C:\Users\user\Documents\bot2
+
+git init
+git config user.name "Gleenline"
+git config user.email "kazGLcompany@gmail.com"
+
+git add main.py requirements.txt .gitignore .env.example
+git commit -m "Initial commit: Proimport bot"
+
+git remote add origin https://github.com/Gleenline/proimport-bot.git
+git branch -M main
+git push -u origin main
